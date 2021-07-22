@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>School Register</title>
+    <link rel="stylesheet" type="text/css" href= "style.css">
+</head>
+    <body>
+        <h1>School Form</h1>
+            <form class= "Sign">
+        <div>
+             <p class ="Label"> First-name </p>
+                <input type = "text" name ="First-name" class = "box">
+        </div>
+        
+        <div>
+            <p class ="Label">Last Name</p>
+            <input type = "text" name ="Last-name" class = "box">
+        </div>
+
+        <div>
+           <p class ="Label">Email-Id </p>
+            <input type = "email" name = "Email-Id" class = "box"> 
+        </div>
+
+        <div>
+         <p class ="Label">Password </p>
+            <input type = "password" name = "Password" class = "box"> 
+        </div>
+
+        <div>
+           <p class ="Label"> What is your Gender? </p>
+            <input type = "radio" name = "Male" value = "Male"> 
+            Male
+
+            <input type = "radio" name = "Female" value = "Female"> 
+            Female
+
+            <input type = "radio" name = "Other" value = "Other"> 
+            Other
+        </div>
+
+        <div>
+            <p class = "Label"> Do you wear Uniform at your school? </p>
+            <input type = "radio" name = "Yes" value = "Yes">
+            Yes
+            <input type = "radio" name = "No" value = "No">
+            No
+        </div>
+
+        <div>
+           <p class ="Label"> Security Questions:</p>
+            <select name= "Security Questions" class = "box">
+                <option name= "Subject">What is your Favouriote Subject?</option>
+                <option name= "School">Which school do you go to?</option>
+                <options name= "Graduated">Are you Graduated?</options>
+            </select>
+        </div>
+
+        <div>
+            <textarea name= "answer" rows="20" cols= "40" class = "box"></textarea>
+        </div>
+
+        <div>
+            <input type= "checkbox" id="checkbox">
+            Agree Terms and Conditions
+        </div>
+
+        <div>
+            <input type= "submit" name= "register" value="Submit" id="button">
+        </div>
+    </form>
+    </body>
+
+</html>

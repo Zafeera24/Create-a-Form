@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(230, 183, 126);
+    }
+  
+    .Sign{
+        background-color: rosybrown;
+        width: 500px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Label{
+        margin: 0px;
+        margin-bottom: 7px;
+        margin-top: 12px;
+    }
+  
+    .box{
+        width: 100%
+    }
+  
+    h1{
+      text-align: center;
+    }
+  
+    #checkbox{
+      margin-top: 10%;
+      margin-bottom: 5%;
+    }
+  
+    #button{
+        display: inline;
+        align-self: center;
+    }
